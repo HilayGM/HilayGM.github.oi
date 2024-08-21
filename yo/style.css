@@ -1,0 +1,37 @@
+
+
+header {
+  background-color: #3b3f56;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo img {
+  width: 50px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.carousel-inner img {
+  height: 500px;
+  object-fit: cover;
+}
+.carousel-inner {
+  height: 90vh;
+}
+
+

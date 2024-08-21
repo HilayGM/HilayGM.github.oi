@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="stylesheet" href="./styleform.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="">
+    <title>Contacto</title>
+</head>
+<body>
+    <header>
+        <h1>Datos de contacto</h1>
+        <nav>
+            <a href="/images/imagenes.html">Imágenes</a>
+            <a href="/video/video.html">Video</a>
+            <a href="#">Ir a W sección</a>
+        </nav>
+    </header>
+    <main>
+        <!--Anterior forma de crear formularios 
+            <div>
+            <input type="nombre" name="">
+            <input type="edad" name="">
+        </div> -->
+        <form action="">
+            <label for="nombre">
+                <span>Nombre completo</span>
+                <input type="text" id="nombre" placeholder="Comenzar por apellidos" name="nombre" required>
+            </label>
+            <label for="despertar">
+                <span>Hora de levantarme</span>
+                <input type="time" name="despertar" id="despertar">
+            </label><label for="cumpleaños">
+                <span>Fecha de cumpleaños</span>
+                <input type="date" name="cumple" id="cumpleaños">
+            </label>            
+            <label for="correo">
+                <span>E-mail</span>
+                <input type="email" name="correo" id="correo" placeholder="Tu correo" autocomplete="email">
+            </label>                        
+            <label for="pais">
+                <span>E-mail</span>
+                <input type="text" name="pais" id="pais" autocomplete="country">
+            </label>
+            <input type="submit">
+        </form>
+    </main>
+</body>
+</html>

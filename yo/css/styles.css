@@ -1,0 +1,93 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #050333;
+  color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #09092b;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .logo h1 {
+  margin: 0;
+  color: #ffcc00;
+}
+
+header nav {
+  display: flex;
+  gap: 20px;
+}
+
+header input[type="text"] {
+  padding: 5px;
+  margin-right: 20px;
+}
+
+main {
+  display: flex;
+  padding: 20px;
+}
+
+.content {
+  flex: 3;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.anime-card {
+  background-color: #444;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.anime-card img {
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+.anime-card h3 {
+  margin: 10px 0 5px;
+}
+
+.anime-card p {
+  margin: 0;
+}
+
+aside {
+  flex: 1;
+  margin-left: 20px;
+}
+
+aside h2 {
+  margin-top: 0;
+}
+
+aside ul, aside ol {
+  list-style: none;
+  padding: 0;
+}
+
+aside li {
+  margin-bottom: 10px;
+}
+
+footer {
+  background-color: #140e31;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+}
